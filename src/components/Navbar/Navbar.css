@@ -7,14 +7,14 @@
 .navbar-logo {
   width: 150px;
 }
-.navber-menu {
+.navbar-menu {
   display: flex;
   list-style: none;
   gap: 20px;
   font-size: 18px;
   font-weight: 500;
 }
-.navber-right {
+.navbar-right {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -34,4 +34,19 @@
 .navbar .active {
   padding-bottom: 2px;
   border-bottom: 2px solid #ff5722;
+}
+.navbar li {
+  cursor: pointer;
+}
+.navbar-search-icon {
+  position: relative;
+}
+.navbar-search-icon .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
 }
