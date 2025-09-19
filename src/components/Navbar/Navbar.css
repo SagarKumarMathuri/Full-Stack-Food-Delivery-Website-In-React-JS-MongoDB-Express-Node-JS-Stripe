@@ -4,3 +4,34 @@
   justify-content: space-between;
   align-items: center;
 }
+.navbar-logo {
+  width: 150px;
+}
+.navber-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navber-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5722;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.navbar button:hover {
+  background-color: #e64a19;
+}
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ff5722;
+}
