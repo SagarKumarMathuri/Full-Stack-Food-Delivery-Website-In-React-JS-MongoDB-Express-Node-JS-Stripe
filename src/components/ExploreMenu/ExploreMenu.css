@@ -43,3 +43,7 @@
   background-color: chartreuse;
   border: none;
 }
+.explore-menu-list-item .active {
+  border: 2px solid chartreuse;
+  padding: 2px;
+}
