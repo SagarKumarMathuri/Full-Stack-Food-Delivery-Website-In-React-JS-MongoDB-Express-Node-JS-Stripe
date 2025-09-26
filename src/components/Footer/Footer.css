@@ -45,3 +45,13 @@
   border: 0.5px solid rgb(78, 7, 7);
   height: 2px;
 }
+@media (max-width: 750px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+}
