@@ -55,15 +55,15 @@ const Cart = () => {
             <p>Total</p>
             <p>{0}</p>
           </div>
+          <button>PROCEED TO CHECKOUT</button>
         </div>
-        <button>PROCEED TO CHECKOUT</button>
-      </div>
-      <div className="cart-promocode">
-        <div>
-          <p>If you have a promo code, Enter it here</p>
-          <div className="cart-promocode-input">
-            <input type="text" placeholder="promo code" />
-            <button>Submit</button>
+        <div className="cart-promocode">
+          <div>
+            <p>If you have a promo code, Enter it here</p>
+            <div className="cart-promocode-input">
+              <input type="text" placeholder="promo code" />
+              <button>Submit</button>
+            </div>
           </div>
         </div>
       </div>
